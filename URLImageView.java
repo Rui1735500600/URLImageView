@@ -53,8 +53,8 @@ public class MySmartImageView extends android.support.v7.widget.AppCompatImageVi
                         handler.sendMessage(obtain);
                         inputStream.close();
                     }else{
-                        System.out.println("请求失败");
                         //HTTP状态码错误
+                        System.out.println("请求失败");
                     }
                 } catch (IOException e) {
                     e.printStackTrace();
